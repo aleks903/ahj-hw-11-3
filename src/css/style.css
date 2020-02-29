@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.projects {
+  margin-right: 10px;
+}
+
+.le-projects, .table-tasks {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  width: 300px;
+  position: relative;
+}
+
+.item-project {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+.item-project:last-child {
+  border-bottom: none;
+}
+
+.col-one {
+  width: 70%;
+}
+
+.col-two {
+  width: 30%;
+  text-align: center;
+}
+
+.amount-tasks span{
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 15px;
+  padding: 3px 15px;
+}
+
+.item-tasks {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+.item-tasks span {
+  margin-left: 5px;
+}
+
+.item-tasks:last-child {
+  border-bottom: none;
+}
+
+.select-task {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.select-task.active {
+  background-color: #008000;
+}
+
+.popup {
+  position: absolute;
+  background-color: #ffffff;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 15px;
+  display: flex;
+}
+
+.select {
+  text-decoration: underline;
+}
+
+.project-tasks {
+  top: 5px;
+  left: 5px;
+}
+
+.popup-project {
+  margin-left: 5px;
+}
+
+.project-name {
+  padding-bottom: 5px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
